@@ -19,23 +19,28 @@ A robust Python-based web scraper that extracts job listings from the [Real Pyth
    ```bash
    git clone https://github.com
    cd fake-jobs-scraper
+   ```
 
-2. **Install dependencies:
+2. **Install dependencies:**
    ```bash
    pip install requests beautifulsoup4
+   ```
 
-**Usage
-Run the script from your terminal:
+**Usage**
+   Run the script from your terminal:
    ```bash
    python scraper.py
+   ```
 
-**Upon completion, you will find a file named job_listings.csv in your project directory containing the:
-Job Title
-Company Name
-Location
-Application Link
-🏗️ Project Structure
-scraper.py: The main script containing the fetching, parsing, and saving logic.
-job_listings.csv: The output file generated after running the script.
-📜 License
+**Upon completion, you will find a file named ***job_listings.csv*** in your project directory containing the:**
+* Job Title
+* Company Name
+* Location
+* Application Link
+
+**🏗️ Project Structure**
+- scraper.py: The main script containing the fetching, parsing, and saving logic.
+- job_listings.csv: The output file generated after running the script.
+
+**📜 License**
 This project is open-source and available under the MIT License.
